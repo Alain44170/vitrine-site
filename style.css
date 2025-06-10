@@ -71,7 +71,7 @@ nav a:hover {
     font-weight: 800;
     text-decoration: none;
     font-size: 1.2em;
-    background-color: #0b0000b5;
+    background-color: #0b00005d;
     border-radius: 5px;
 }
 
@@ -86,14 +86,14 @@ section {
 p {
     color: white;
     font-weight: bold;
-    background-color: #01000088;
+    background-color: #01000039;
     border-radius: 5px;
 }
 
 .ulPara li {
     font-weight: bold;
     color: white;
-    background-color: #050000d4;
+    background-color: #05000089;
     border-radius: 4px;
     list-style: none;
     gap: 1px;
@@ -109,14 +109,14 @@ h1 {
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    background-color: rgba(6, 0, 0, 0.596);
+    background-color: rgba(6, 0, 0, 0.365);
 }
 
 h2 {
     margin-top: 40px;
     color: #ffffff;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.657);
+    background-color: rgba(0, 0, 0, 0.326);
 }
 
 ul {
