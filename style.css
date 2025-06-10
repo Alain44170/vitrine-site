@@ -14,6 +14,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding-top: 60px;
+    text-shadow:  -3px -5px 2px black;;
     /* Pour éviter que le menu fixe recouvre le contenu */
 }
 
@@ -71,7 +72,7 @@ nav a:hover {
     font-weight: 800;
     text-decoration: none;
     font-size: 1.2em;
-    background-color: #0b00005d;
+    background-color: #030000e2;
     border-radius: 5px;
 }
 
@@ -86,14 +87,14 @@ section {
 p {
     color: white;
     font-weight: bold;
-    background-color: #01000039;
+    background-color: #01000061;
     border-radius: 5px;
 }
 
 .ulPara li {
     font-weight: bold;
     color: white;
-    background-color: #05000089;
+    background-color: #05000088;
     border-radius: 4px;
     list-style: none;
     gap: 1px;
@@ -109,7 +110,7 @@ h1 {
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    background-color: rgba(6, 0, 0, 0.365);
+    background-color: rgba(6, 0, 0, 0.439);
 }
 
 h2 {
@@ -179,7 +180,7 @@ strong {
     }
 
     nav a {
-        color: rgb(196, 213, 255);
+        color: rgb(255, 255, 255);
         border-radius: 5px 30px;
         font-size: 1.3em;
         font-weight: 800;
