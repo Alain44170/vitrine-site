@@ -201,3 +201,71 @@ strong {
         margin: auto;
     }
 }
+@media (min-width: 769px) and (max-width: 1127px){
+        html body {
+        background: url(images/Ciel-nature.jpg);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.2;
+        padding-top: 0;
+    }
+    .title1 {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.paragraphe1 {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+    .title1 {
+        margin-top: 200px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        width: 50px;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+        justify-content: space-around;
+        width: auto;
+        margin: auto;
+        z-index: 1000;
+    }
+
+    nav a {
+        color: rgb(255, 255, 255);
+        border-radius: 5px 30px;
+        font-size: 1.3em;
+        font-weight: 800;
+    }
+
+
+    section {
+        position: relative;
+        top: -8px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        margin: auto;
+    }
+}
