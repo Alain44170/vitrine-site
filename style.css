@@ -74,6 +74,10 @@ nav a:hover {
     font-size: 1.2em;
     background-color: #030000e2;
     border-radius: 5px;
+    
+}
+.ancrage1 li{
+    list-style-type: none;
 }
 
 /* Sections */
