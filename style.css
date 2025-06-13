@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url(images/Ciel-nature.jpg);
     background-repeat: no-repeat;
@@ -14,6 +18,7 @@ body {
 }
 
 .menu ul {
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,32 +149,38 @@ a {
 
 @media (max-width: 768px) {
     .menu ul {
-        display: block;
         text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .menu ul{
+margin:0;
+padding: 0;
     }
 
     .menu a {
-        font-size: 14px;
+        font-size: 1.2em;
     }
 
-.titrePrincipal h1{
-    text-align: center;
-     padding-top: 100px;
-     width: 220px;
-     font-size: 1em;
-}
-    .titrePrincipal{
-        margin-left: -70%;
+    .titrePrincipal, h1 {
+        text-align: center;
+        padding-top: 130px;
+        width: 245px;;
+        color: rgb(255, 34, 0);
         font-size: 1.3em;
-        padding-top: 100px;
-        width: 220px;
+    }
+
+    .titrePrincipal,
+    p {
+        width: 250px;
         border-radius: 5px;
-        margin: 0 0 0 12%;
+        margin: 8% 0 0 5%;
     }
     section{
-        padding-top:  200px;
-    }
-    #agir h2{
+        padding-top: 290px;
+        width: 350px;
+        border-radius: 5px;
+        margin: 8% 0 0 5%;
 
     }
 }
